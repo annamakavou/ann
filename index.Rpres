@@ -1,10 +1,10 @@
-Google Trends and Social Anxiety in Individualistic and Collectivistic Cultures
+Google Trends and Social Anxiety in Individualistic and Collectivistic countries
 ========================================================
 author: makavou anna
 date: 16/3/2019
 autosize: true
 
-Individualistic cultures;
+Individualistic countries;
 ========================================================
 Importance of personal expression and assertion
 
@@ -12,7 +12,7 @@ Importance of personal expression and assertion
  
  (insert citation)
 
-Collectivistic cultures
+Collectivistic countries
 ========================================================
  Importance of group harmony maintenance
  
@@ -41,8 +41,8 @@ D.V. Social anxiety as term searced on google
 Methods
 ========================================================
 Download data from google trends for each country
-Chile: Fobia social
-U.K.: Social anxiety
+Chile: searched term "Fobia social"
+U.K.: searched term "Social anxiety"
 
 Past 12 months
 
