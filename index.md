@@ -50,7 +50,7 @@ Proposed Analysis
 ======================================================== 
 1) Analyze data in r
 
-2) Compare the two groups with t-test  
+2) Compare the two groups' means with t-test  
 
 Bibliography
 ========================================================
