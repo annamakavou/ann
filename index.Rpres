@@ -20,7 +20,6 @@ Collectivistic countries
 
 ========================================================
 
-
 Studies have shown that although collectivistic countries experience higher levels of social anxiety, its not obvious due to their belonging to a group. (Chen et al., 2011)
  
 Thus, reports for social anxiety will appear to be more in individualistic countries
