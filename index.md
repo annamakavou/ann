@@ -10,7 +10,6 @@ Importance of personal expression and assertion
 
  e.g. United States, Canada, Australia, United Kindom, Germany,
  
- (world map)
 
 Collectivistic countries
 ========================================================
@@ -18,7 +17,7 @@ Collectivistic countries
  
  e.g. Chile, China, Japan, Greece
  
- (world map)
+
  
  
 ========================================================
