@@ -24,7 +24,6 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{hyperref}
 \hypersetup{unicode=true,
-            pdftitle={R Notebook},
             pdfborder={0 0 0},
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
@@ -113,9 +112,9 @@
 
 \setlength{\droptitle}{-2em}
 
-  \title{R Notebook}
-    \pretitle{\vspace{\droptitle}\centering\huge}
-  \posttitle{\par}
+  \title{}
+    \pretitle{\vspace{\droptitle}}
+  \posttitle{}
     \author{}
     \preauthor{}\postauthor{}
     \date{}
@@ -123,62 +122,42 @@
   
 
 \begin{document}
-\maketitle
 
-This is an \href{http://rmarkdown.rstudio.com}{R Markdown} Notebook.
-When you execute code within the notebook, the results appear beneath
-the code.
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
-Try executing this chunk by clicking the \emph{Run} button within the
-chunk or by placing your cursor inside it and pressing
-\emph{Ctrl+Shift+Enter}.
+title: ``R Notebook'' output: html\_document: default df\_print: paged
+pdf\_document: default
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\KeywordTok{plot}\NormalTok{(cars)}
+\NormalTok{knitr}\OperatorTok{::}\KeywordTok{read_chunk}\NormalTok{(}\StringTok{'DATA_collection.R'}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
 
-\includegraphics{DATAsteps_files/figure-latex/unnamed-chunk-1-1.pdf}
-
-Add a new chunk by clicking the \emph{Insert Chunk} button on the
-toolbar or by pressing \emph{Ctrl+Alt+I}.
-
-When you save the notebook, an HTML file containing the code and output
-will be saved alongside it (click the \emph{Preview} button or press
-\emph{Ctrl+Shift+K} to preview the HTML file).
-
-The preview shows you a rendered HTML copy of the contents of the
-editor. Consequently, unlike \emph{Knit}, \emph{Preview} does not run
-any R code chunks. Instead, the output of the chunk when it was last run
-in the editor is displayed.
-
 \begin{Shaded}
 \begin{Highlighting}[]
-\NormalTok{knitr}\OperatorTok{::}\KeywordTok{read_chunk}\NormalTok{(}\StringTok{'data_collection.R'}\NormalTok{)}
+ \KeywordTok{library}\NormalTok{(}\StringTok{"gtrendsR"}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
 
 \begin{verbatim}
-install.packages("gtrendsR")
+## Warning: package 'gtrendsR' was built under R version 3.5.3
 \end{verbatim}
 
-\begin{verbatim}
-trends <- gtrendsR::gtrends(
-  keyword = c("fobia social", "social phobia"),
-  geo = c("CL", "GB"),
-  time = "2018-01-01 2018-12-31")
-\end{verbatim}
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{trends <-}\StringTok{ }\NormalTok{gtrendsR}\OperatorTok{::}\KeywordTok{gtrends}\NormalTok{(}
+  \DataTypeTok{keyword =} \KeywordTok{c}\NormalTok{(}\StringTok{"fobia social"}\NormalTok{, }\StringTok{"social phobia"}\NormalTok{),}
+  \DataTypeTok{geo =} \KeywordTok{c}\NormalTok{(}\StringTok{"CL"}\NormalTok{, }\StringTok{"GB"}\NormalTok{),}
+  \DataTypeTok{time =} \StringTok{"2018-01-01 2018-12-31"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
 
-\begin{verbatim}
-interest_over_time <- trends$interest_over_time
-\end{verbatim}
-
-\begin{verbatim}
-readr::write_csv(
-  x = interest_over_time,
-  path = 'data/interest_over_time.csv')
-\end{verbatim}
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{interest_over_time <-}\StringTok{ }\NormalTok{trends}\OperatorTok{$}\NormalTok{interest_over_time}
+\end{Highlighting}
+\end{Shaded}
 
 
 \end{document}

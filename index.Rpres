@@ -4,7 +4,7 @@ author: makavou anna
 date: 04/04/2019
 autosize: true  
 
-Individualistic countries; 
+Individualistic countries;  
 ========================================================
 Importance of personal expression and assertion
 
