@@ -8,22 +8,22 @@ Individualistic countries;
 ========================================================
 Importance of personal expression and assertion
 
- e.g. United States, Canada, Australia, United Kindom, Germany,
+ e.g.  United Kindom 
  
 
 Collectivistic countries
 ========================================================
  Importance of group harmony maintenance
  
- e.g. Chile, China, Japan, Greece
+ e.g. Chile 
  
 
 ========================================================
 
 Studies have shown that although collectivistic countries experience higher levels of social anxiety, its not obvious due to their belonging to a group. (Chen et al., 2011)
  
-Thus, reports for social anxiety will appear to be more in individualistic countries
 
+Thus, we hypothesised that reports for social anxiety will appear to be more in individualistic countries despite the higher levels in collectivistic.
 
 Hypothesis
 ========================================================
@@ -32,28 +32,34 @@ Hypothesis
  
 I.V. Type of society: Chile (collectivistic)  and United Kingdom (individualistic) 
 
-D.V. Social anxiety as term searced on google
+D.V. google "hits" on terms related to social anxiety
 
-Methods
+Specifically:
 ========================================================
-Download data from google trends ("social anxiety") for each country
 
-Chile: searched term "Fobia social"
+ 
 
-U.K.: searched term "Social anxiety"
+![alt text](Rplot01.png)
+***
+Google "hits" for Chile (CL) and UK (GB)
 
-Past 12 months
+ Chille "Fobia Social"
+ 
+ UK "Social Phobia"
+ 
+ 
 
-
-
-Proposed Analysis
+Analysis 
 ======================================================== 
-1) Analyze data in r
+1) Run t-test analysis in r
+ 
 
-2) Compare the two groups' means with t-test  
+ Results
+========================================================
 
 Bibliography
 ========================================================
 
 Chen, J., Ja, K., Bogels, S., Schreier, S. S., Heinrichs, N., Alden, L., Bogels, S. (2011). Social anxiety and social norms in individualistic and collectivistic countries. Depression and Anxiety, 27(12), 1128-1134. https://doi.org/10.1002/da.20746.Social
 
+ 
