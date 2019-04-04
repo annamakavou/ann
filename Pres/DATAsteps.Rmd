@@ -1,0 +1,67 @@
+---
+output:
+  html_document: 
+    toc: yes
+  pdf_document: default
+---
+---
+title: "DATAsteps"
+output:
+  html_document: default
+    df_print: paged
+  pdf_document: default
+  
+
+```{r cache=FALSE}
+knitr::read_chunk('DATA_collection.R')
+```
+
+
+```{r Library}
+```
+
+
+```{r google trends query}
+```
+
+
+```{r get interest over time}
+```
+
+
+```{r save data}
+```
+
+
+```{r get the means} 
+```
+
+
+```{r generate data}
+```
+
+
+```{r show our wide data}
+```
+
+
+```{r show our long data}
+``` 
+
+
+```{r t.test}
+```
+
+
+```{r geom_plot}
+
+```
+
+
+
+```{r show table}
+```
+
+
+
+
