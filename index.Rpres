@@ -1,8 +1,8 @@
 Google Trends and Social Anxiety in Individualistic and Collectivistic countries
 ========================================================
 author: makavou anna
-date: 18/3/2019
-autosize: true 
+date: 04/04/2019
+autosize: true  
 
 Individualistic countries; 
 ========================================================
