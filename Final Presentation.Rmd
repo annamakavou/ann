@@ -4,7 +4,7 @@ author: "Kapelle Grigoria, Makavou Anna, Sigala Dimitra, Fragkiadaki Sotiria,"
 date: "15 April 2019"
 bibliography: ref.bib 
 output: ioslides_presentation 
----
+--- 
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
