@@ -3,7 +3,7 @@ title: "Google Trends and Social Anxiety in Individualistic and Collectivistic c
 author: "Kapelle Grigoria, Makavou Anna, Sigala Dimitra, Fragkiadaki Sotiria,"
 date: "15 April 2019"
 bibliography: ref.bib 
-output: ioslides_presentation
+output: ioslides_presentation 
 ---
 
 ```{r setup, include=FALSE}
