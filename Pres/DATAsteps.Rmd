@@ -1,16 +1,11 @@
----
-output:
-  html_document: 
-    toc: yes
-  pdf_document: default
----
----
+
+--- 
 title: "DATAsteps"
-output:
-  html_document: default
-    df_print: paged
-  pdf_document: default
-  
+author: "Kapelle Grigoria, Makavou Anna, Sigala Dimitra, Fragkiadaki Sotiria"
+nocite: |
+  @heinrichs_cultural_2006, @schreier_social_2010, @hofmann_cultural_2010
+bibliography: ref.bib
+---
 
 ```{r cache=FALSE}
 knitr::read_chunk('DATA_collection.R')
@@ -46,7 +41,7 @@ knitr::read_chunk('DATA_collection.R')
 
 
 ```{r show our long data}
-``` 
+```
 
 
 ```{r t.test}
@@ -54,14 +49,14 @@ knitr::read_chunk('DATA_collection.R')
 
 
 ```{r geom_plot}
-
 ```
 
 
-
-```{r show table}
+```{r table}
 ```
 
 
+```{r result}
+```
 
-
+# References
