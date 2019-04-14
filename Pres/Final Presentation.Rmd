@@ -1,7 +1,7 @@
 --- 
 title: "Google Trends and Social Anxiety in Individualistic and Collectivistic countries"
 author: "Kapelle Grigoria, Makavou Anna, Sigala Dimitra, Fragkiadaki Sotiria,"
-date: "15 April 2019"
+date: "15 April 2019" 
 bibliography: ref.bib 
 output: ioslides_presentation 
 --- 
