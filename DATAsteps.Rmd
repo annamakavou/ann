@@ -1,0 +1,62 @@
+
+---  
+title: "DATAsteps"
+author: "Kapelle Grigoria, Makavou Anna, Sigala Dimitra, Fragkiadaki Sotiria"
+nocite: |
+  @heinrichs_cultural_2006, @schreier_social_2010, @hofmann_cultural_2010
+bibliography: ref.bib
+---
+
+```{r cache=FALSE}
+knitr::read_chunk('DATA_collection.R')
+```
+
+
+```{r Library}
+```
+
+
+```{r google trends query}
+```
+
+
+```{r get interest over time}
+```
+
+
+```{r save data}
+```
+
+
+```{r get the means} 
+```
+
+
+```{r generate data}
+```
+
+
+```{r show our wide data}
+```
+
+
+```{r show our long data}
+```
+
+
+```{r t.test}
+```
+
+
+```{r geom_plot}
+```
+
+
+```{r table}
+```
+
+
+```{r result}
+```
+
+# References
