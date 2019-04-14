@@ -5,7 +5,7 @@ date: "15 April 2019"
 bibliography: ref.bib 
 output: ioslides_presentation 
 editor_options: 
-  chunk_output_type: inline 
+  chunk_output_type: inline  
 --- 
 
 ```{r setup, include=FALSE}
